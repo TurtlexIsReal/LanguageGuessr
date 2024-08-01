@@ -51,7 +51,6 @@ const snippets = [
     { text: "Ẹ n lẹ, bawo ni? Ṣe o le sọ mi? Kò nira tó.", language: "Yoruba" },
     { text: "Salve, quid agis? Potesne me coniectare? Non est ita difficile.", language: "Latin" },
     { text: "नमस्कार, तपाईंलाई कस्तो छ? तपाईं मलाई अन्दाज गर्न सक्नुहुन्छ? यो त्यति कठिन छैन।", language: "Nepali" },
-    { text: "Romanes, kova si? Poți să mă ghicești? Nu e atât de greu.", language: "Romani" },
     { text: "Xin chào, bạn thế nào? Bạn có đoán được tôi không? Không khó lắm.", language: "Vietnamese" },
     { text: "Sawubona, unjani? Ungakwazi yini ukusibona? Akuyona into enzima.", language: "Zulu" },
     { text: "Dobry dziyń jak sie mosz? Możesz mi przigadnōńć? Niyma to tak ciynżke.", language: "Silesian" },
