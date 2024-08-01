@@ -69,7 +69,7 @@ const snippets = [
     { text: "Салам кандайсың? Мени болжолдой аласызбы? Бул анчалык деле кыйын эмес.", language: "Kyrgyz" },
     { text: "Hûn çawa ne? Hûn dikarin min texmîn bikin? Ew qas ne dijwar e.", language: "Kurdish" },
     { text: "Hello kif int? Tista radenni? Mhuwiex daqshekk diffiċli.", language: "Maltese" },
-    { text: "އައްސަލާމް ޢަލައިކުމް ތިބާގެ ޙާލު ކިހިނެތް؟ އަހަރެން ލަފާކޮށްދެވިދާނެތަ؟ އެއާ އުނދަގޫ ކަމެް ނޫނެވެ.", language: "Maldivian" }
+    { text: "އައްސަލާމް ޢަލައިކުމް ތިބާގެ ޙާލު ކިހިނެތް؟ އަހަރެން ލަފާކޮށްދެވިދާނެތަ؟ އެއާ އުނދަގޫ ކަމެް ނޫނެވެ.", language: "Maldivian" },
     { text: "Aloha pehea ʻoe? Hiki iā ʻoe ke koho mai iaʻu? Aloha au i kēia ʻāina.", language: "Hawaiian" }
 ];
 
