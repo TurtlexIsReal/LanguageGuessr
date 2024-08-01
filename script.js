@@ -15,7 +15,6 @@ const snippets = [
     { text: "Hallo, hoe gaat het? Kun je me raden? Het is niet zo moeilijk.", language: "Dutch" },
     { text: "Hei, hvordan går det? Kan du gjette meg? Det er ikke så vanskelig.", language: "Norwegian" },
     { text: "Halo, apa kabar? Bisakah Anda menebak saya? Ini tidak terlalu sulit.", language: "Indonesian" },
-    { text: "Salut, ce faci? Poți să mă ghicești? Nu e atât de greu.", language: "Romanian" },
     { text: "สวัสดีคุณเป็นอย่างไรบ้าง? คุณสามารถทายฉันได้ไหม? มันไม่ยากขนาดนั้น.", language: "Thai" },
     { text: "नमस्ते, आप कैसे हैं? क्या आप मुझे पहचान सकते हैं? यह इतना मुश्किल नहीं है।", language: "Hindi" },
     { text: "Merhaba, nasılsın? Beni tahmin edebilir misin? Çok zor değil.", language: "Turkish" },
