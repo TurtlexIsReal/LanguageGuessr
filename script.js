@@ -56,28 +56,28 @@ const snippets = [
     { text: "Romanes, kova si? Poți să mă ghicești? Nu e atât de greu.", language: "Romani" },
     { text: "Xin chào, bạn thế nào? Bạn có đoán được tôi không? Không khó lắm.", language: "Vietnamese" },
     { text: "Sawubona, unjani? Ungakwazi yini ukusibona? Akuyona into enzima.", language: "Zulu" },
-	{ text: "Dobry dziyń jak sie?  Możesz mi przigadnōńć?  Niyma to tak ciynżke.", language: "Silesian" },
+    { text: "Dobry dziyń jak sie? Możesz mi przigadnōńć? Niyma to tak ciynżke.", language: "Silesian" },
     { text: "བཀྲ་ཤིས་འདི་ག་ངེས་འདི་ག་ནང་འདུག? ཁྱེད་རང་ངེས་པ་རེད་པས། འདི་འགྲོད་མི་རུལ་པར་འདུག", language: "Tibetan" },
-	{ text: "Сайн байна уу, сайн уу? Та намайг тааж чадах уу? Энэ тийм ч хэцүү биш.", language: "Mongolian" },
-	{ text: "Salam necəsən? Məni təxmin edə bilərsən? Bu asandır.", language: "Azeri" },
-	{ text: "Hello how are you? Can you guess me? It is not so difficult.", language: "English" },
-	{ text: "Helo sut wyt ti? Allwch chi ddyfalu fi? Nid yw mor anodd.", language: "Welsh" },
-	{ text: "Allinllachu, imaynallam? ¿Adivinawankimanchu? Manam chayna sasachu, confiaway.", language: "Quechua" },
-	{ text: "হ্যালো, আপনি কেমন আছেন? আপনি কি আমাকে অনুমান করতে পারেন? এটা এত কঠিন নয়, বিশ্বাস করুন.", language: "Bengali" },
-	{ text: "Halo, ciamar a tha thu? An urrainn dhut mo bheachdachadh? Chan eil e cho duilich, creid mi.", language: "Scotish" },
-	{ text: "Witôj, jaczi sã masz? Mòżesz mie zgadnąc? To nie je tak trudné.", language: "Kashubian" },
-	{ text: "Hallo, Hvussu hevur tú tað? Kanst tú gita meg? Tað er ikki so torført.", language: "Faroese" },
-	{ text: "សួស្តី, អ្នកសុខសប្បាយជាទេ? អ្នកអាចទាយបានទេ? វាមិនពិបាកទេ.", language: "Khmer" },
-	{ text: "Салам кандайсың? Мени болжолдой аласызбы? Бул анчалык деле кыйын эмес.", language: "Kyrgyz" },
-	{ text: "Hûn çawa ne? Hûn dikarin min texmîn bikin? Ew qas ne dijwar e.", language: "Kurdish" },
-	{ text: "Hello kif int? Tista radenni? Mhuwiex daqshekk diffiċli.", language: "Maltese" },
-	{ text: "އައްސަލާމް ޢަލައިކުމް ތިބާގެ ޙާލު ކިހިނެތް؟ އަހަރެން ލަފާކޮށްދެވިދާނެތަ؟ އެހާ އުނދަގޫ ކަމެއް ނޫނެވެ.", language: "Maldivian" },
-
+    { text: "Сайн байна уу, сайн уу? Та намайг тааж чадах уу? Энэ тийм ч хэцүү биш.", language: "Mongolian" },
+    { text: "Salam necəsən? Məni təxmin edə bilərsən? Bu asandır.", language: "Azeri" },
+    { text: "Hello how are you? Can you guess me? It is not so difficult.", language: "English" },
+    { text: "Helo sut wyt ti? Allwch chi ddyfalu fi? Nid yw mor anodd.", language: "Welsh" },
+    { text: "Allinllachu, imaynallam? ¿Adivinawankimanchu? Manam chayna sasachu, confiaway.", language: "Quechua" },
+    { text: "হ্যালো, আপনি কেমন আছেন? আপনি কি আমাকে অনুমান করতে পারেন? এটা এত কঠিন নয়, বিশ্বাস করুন.", language: "Bengali" },
+    { text: "Halo, ciamar a tha thu? An urrainn dhut mo bheachdachadh? Chan eil e cho duilich, creid mi.", language: "Scotish" },
+    { text: "Witôj, jaczi sã masz? Mòżesz mie zgadnąc? To nie je tak trudné.", language: "Kashubian" },
+    { text: "Hallo, Hvussu hevur tú tað? Kanst tú gita meg? Tað er ikki so torført.", language: "Faroese" },
+    { text: "សួស្តី, អ្នកសុខសប្បាយជាទេ? អ្នកអាចទាយបានទេ? វាមិនពិបាកទេ.", language: "Khmer" },
+    { text: "Салам кандайсың? Мени болжолдой аласызбы? Бул анчалык деле кыйын эмес.", language: "Kyrgyz" },
+    { text: "Hûn çawa ne? Hûn dikarin min texmîn bikin? Ew qas ne dijwar e.", language: "Kurdish" },
+    { text: "Hello kif int? Tista radenni? Mhuwiex daqshekk diffiċli.", language: "Maltese" },
+    { text: "އައްސަލާމް ޢަލައިކުމް ތިބާގެ ޙާލު ކިހިނެތް؟ އަހަރެން ލަފާކޮށްދެވިދާނެތަ؟ އެއާ އުނދަގޫ ކަމެް ނޫނެވެ.", language: "Maldivian" }
 ];
 
 let currentSnippet = {};
 let currentStreak = 0;
 let bestStreak = localStorage.getItem('bestStreak') || 0;
+let lastLanguage = '';
 
 // Ładowanie dźwięków
 const correctSound = new Audio('correct.mp3');
@@ -87,8 +87,16 @@ const incorrectSound = new Audio('incorrect.mp3');
 const backgroundMusic = document.getElementById('background-music');
 
 function getRandomSnippet() {
-    const randomIndex = Math.floor(Math.random() * snippets.length);
-    currentSnippet = snippets[randomIndex];
+    let randomIndex;
+    let newSnippet;
+    
+    do {
+        randomIndex = Math.floor(Math.random() * snippets.length);
+        newSnippet = snippets[randomIndex];
+    } while (newSnippet.language === lastLanguage);
+    
+    lastLanguage = newSnippet.language;
+    currentSnippet = newSnippet;
     document.getElementById('text-snippet').innerText = currentSnippet.text;
 }
 
