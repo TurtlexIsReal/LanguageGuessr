@@ -49,14 +49,13 @@ const snippets = [
     { text: "Sannu, yaya? Za ka iya tantance ni? Ba mai wahala ba.", language: "Hausa" },
     { text: "Habari, hujambo? Unaweza kunikisia? Sio ngumu sana.", language: "Swahili" },
     { text: "Dia duit, conas atá tú? An féidir leat mé a thomhas? Níl sé chomh deacair sin.", language: "Irish" },
-    { text: "Hola, com estàs? Pots endevinar-me? No és tan difícil.", language: "Catalan" },
     { text: "Ẹ n lẹ, bawo ni? Ṣe o le sọ mi? Kò nira tó.", language: "Yoruba" },
     { text: "Salve, quid agis? Potesne me coniectare? Non est ita difficile.", language: "Latin" },
     { text: "नमस्कार, तपाईंलाई कस्तो छ? तपाईं मलाई अन्दाज गर्न सक्नुहुन्छ? यो त्यति कठिन छैन।", language: "Nepali" },
     { text: "Romanes, kova si? Poți să mă ghicești? Nu e atât de greu.", language: "Romani" },
     { text: "Xin chào, bạn thế nào? Bạn có đoán được tôi không? Không khó lắm.", language: "Vietnamese" },
     { text: "Sawubona, unjani? Ungakwazi yini ukusibona? Akuyona into enzima.", language: "Zulu" },
-    { text: "Dobry dziyń jak sie? Możesz mi przigadnōńć? Niyma to tak ciynżke.", language: "Silesian" },
+    { text: "Dobry dziyń jak sie mosz? Możesz mi przigadnōńć? Niyma to tak ciynżke.", language: "Silesian" },
     { text: "བཀྲ་ཤིས་འདི་ག་ངེས་འདི་ག་ནང་འདུག? ཁྱེད་རང་ངེས་པ་རེད་པས། འདི་འགྲོད་མི་རུལ་པར་འདུག", language: "Tibetan" },
     { text: "Сайн байна уу, сайн уу? Та намайг тааж чадах уу? Энэ тийм ч хэцүү биш.", language: "Mongolian" },
     { text: "Salam necəsən? Məni təxmin edə bilərsən? Bu asandır.", language: "Azeri" },
@@ -72,6 +71,7 @@ const snippets = [
     { text: "Hûn çawa ne? Hûn dikarin min texmîn bikin? Ew qas ne dijwar e.", language: "Kurdish" },
     { text: "Hello kif int? Tista radenni? Mhuwiex daqshekk diffiċli.", language: "Maltese" },
     { text: "އައްސަލާމް ޢަލައިކުމް ތިބާގެ ޙާލު ކިހިނެތް؟ އަހަރެން ލަފާކޮށްދެވިދާނެތަ؟ އެއާ އުނދަގޫ ކަމެް ނޫނެވެ.", language: "Maldivian" }
+    { text: "Aloha pehea ʻoe? Hiki iā ʻoe ke koho mai iaʻu? Aloha au i kēia ʻāina.", language: "Hawaiian" }
 ];
 
 let currentSnippet = {};
