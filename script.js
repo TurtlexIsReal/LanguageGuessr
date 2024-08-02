@@ -69,7 +69,8 @@ const snippets = [
     { text: "Hûn çawa ne? Hûn dikarin min texmîn bikin? Ew qas ne dijwar e.", language: "Kurdish" },
     { text: "Hello kif int? Tista radenni? Mhuwiex daqshekk diffiċli.", language: "Maltese" },
     { text: "އައްސަލާމް ޢަލައިކުމް ތިބާގެ ޙާލު ކިހިނެތް؟ އަހަރެން ލަފާކޮށްދެވިދާނެތަ؟ އެއާ އުނދަގޫ ކަމެް ނޫނެވެ.", language: "Maldivian" },
-    { text: "Aloha pehea ʻoe? Hiki iā ʻoe ke koho mai iaʻu? Aloha au i kēia ʻāina.", language: "Hawaiian" }
+    { text: "Aloha pehea ʻoe? Hiki iā ʻoe ke koho mai iaʻu? Aloha au i kēia ʻāina.", language: "Hawaiian" },
+    { text: "Sveiki, kaip tau sekasi? Ar galite mane atspėti? Tai nėra taip sunku.", language: "Hawaiian" }
 ];
 
 let currentSnippet = {};
